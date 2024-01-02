@@ -1,0 +1,91 @@
+
+					my sample input
+
+insert 00<SEP>aa
+insert 01<SEP>ab
+insert 02<SEP>ac
+insert 03<SEP>ad
+insert 04<SEP>ae
+insert 05<SEP>af
+insert 06<SEP>ag
+insert 07<SEP>ah
+insert 08<SEP>ai
+insert 09<SEP>aj
+insert 10<SEP>ba
+insert 11<SEP>bb
+insert 12<SEP>bc
+insert 13<SEP>bd
+insert 14<SEP>be
+insert 15<SEP>bf
+insert 16<SEP>bg
+insert 17<SEP>bh
+insert 18<SEP>bi
+insert 19<SEP>bj
+insert 20<SEP>ca
+insert 21<SEP>cb
+insert 22<SEP>cc
+insert 23<SEP>cd
+insert 24<SEP>ce
+insert 25<SEP>cf
+insert 26<SEP>cg
+insert 27<SEP>ch
+insert 28<SEP>ci
+insert 29<SEP>cj
+
+remove artist 00
+remove artist 02
+remove artist 04
+remove artist 06
+remove artist 08
+remove artist 10
+remove artist 12
+remove artist 14
+remove artist 16
+remove artist 18
+remove artist 20
+remove artist 22
+remove artist 24
+remove artist 26
+remove artist 28
+remove song ab
+remove song ad
+remove song af
+remove song ah
+remove song aj
+remove song bb
+remove song bd
+remove song bf
+remove song bh
+remove song bj
+remove song cb
+remove song cd
+remove song cf
+remove song ch
+remove song cj
+
+insert 00<SEP>ab
+insert 02<SEP>ad
+insert 04<SEP>af
+insert 06<SEP>ah
+insert 08<SEP>aj
+insert 10<SEP>bb
+insert 12<SEP>bd
+insert 14<SEP>bf
+insert 16<SEP>bh
+insert 18<SEP>bj
+insert 20<SEP>cb
+insert 22<SEP>cd
+insert 24<SEP>cf
+insert 26<SEP>ch
+insert 28<SEP>cj
+
+insert Kid Cudi<SEP>Ignite The Love
+
+
+
+
+
+
+
+
+

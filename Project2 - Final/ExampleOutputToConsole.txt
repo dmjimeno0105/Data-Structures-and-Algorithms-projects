@@ -1,0 +1,83 @@
+Point inserted: (p1, 4, 4)
+Point inserted: (p1, 4, 4)
+Point inserted: (P1, 4, 4)
+Point inserted: (p2, 300, 15)
+Point inserted: (p4, 700, 4)
+Point inserted: (p5, 700, 4)
+Point inserted: (pointy, 200, 900)
+Point rejected: (bad1, 1134, 12)
+Point rejected: (bad2, 3, 3221)
+Point rejected: (bad3, -3, 2)
+SkipList dump:
+Node has depth 2, Value (null)
+Node has depth 1, Value (P1, P1, 4, 4)
+Node has depth 2, Value (p1, p1, 4, 4)
+Node has depth 1, Value (p1, p1, 4, 4)
+Node has depth 1, Value (p2, p2, 300, 15)
+Node has depth 1, Value (p4, p4, 700, 4)
+Node has depth 1, Value (p5, p5, 700, 4)
+Node has depth 2, Value (pointy, pointy, 200, 900)
+SkipList size is: 7
+QuadTree dump:
+Node at 0, 0, 1024: Internal
+  Node at 0, 0, 512: Internal
+    Node at 0, 0, 256:
+    (P1, 4, 4)
+    (p1, 4, 4)
+    (p1, 4, 4)
+    Node at 256, 0, 256:
+    (p2, 300, 15)
+    Node at 0, 256, 256: Empty
+    Node at 256, 256, 256: Empty
+  Node at 512, 0, 512:
+  (p5, 700, 4)
+  (p4, 700, 4)
+  Node at 0, 512, 512:
+  (pointy, 200, 900)
+  Node at 512, 512, 512: Empty
+9 quadtree nodes printed
+Point not found: (1552, 2)
+Point not found: (8, 8)
+Point removed: (p2, 300, 15)
+Point not found: (300, 15)
+Point not removed: pOINTy
+Point removed: (pointy, 200, 900)
+SkipList dump:
+Node has depth 2, Value (null)
+Node has depth 1, Value (P1, P1, 4, 4)
+Node has depth 2, Value (p1, p1, 4, 4)
+Node has depth 1, Value (p1, p1, 4, 4)
+Node has depth 1, Value (p4, p4, 700, 4)
+Node has depth 1, Value (p5, p5, 700, 4)
+SkipList size is: 5
+QuadTree dump:
+Node at 0, 0, 1024: Internal
+  Node at 0, 0, 512:
+  (P1, 4, 4)
+  (p1, 4, 4)
+  (p1, 4, 4)
+  Node at 512, 0, 512:
+  (p5, 700, 4)
+  (p4, 700, 4)
+  Node at 0, 512, 512: Empty
+  Node at 512, 512, 512: Empty
+5 quadtree nodes printed
+Duplicate points:
+(4, 4)
+(700, 4)
+Rectangle rejected: (500, 500, 0, 0)
+Points intersecting region (500, 500, 20, 20):
+5 quadtree nodes visited
+Points intersecting region (600, 0, 200, 200):
+Point found: (p5, 700, 4)
+Point found: (p4, 700, 4)
+2 quadtree nodes visited
+Points intersecting region (600, 0, 2000, 2000):
+Point found: (p5, 700, 4)
+Point found: (p4, 700, 4)
+3 quadtree nodes visited
+Found (p1, 4, 4)
+Found (p1, 4, 4)
+Point not found: p2
+Found (p4, 700, 4)
+Point not found: P4

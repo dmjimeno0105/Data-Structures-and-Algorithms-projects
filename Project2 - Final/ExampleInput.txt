@@ -1,0 +1,39 @@
+
+insert p1 4 4
+insert p1 4 4
+insert P1 4 4
+insert p2 300 15
+insert p4 700 4
+insert p5 700 4
+insert pointy 200 900
+
+insert bad1 1134 12
+insert bad2 3    3221
+insert bad3 -3  2
+
+dump
+
+remove 1552   2
+remove 8 8
+
+remove 300 15
+remove 300 15
+
+remove pOINTy
+remove pointy
+
+dump
+
+duplicates
+
+regionsearch 500 500 0 0
+regionsearch 500 500 20 20
+regionsearch 600 0 200 200
+regionsearch 600 0 2000 2000
+
+
+search p1
+search p2
+search p4
+search P4
+

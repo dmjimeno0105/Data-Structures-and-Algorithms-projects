@@ -1,0 +1,31 @@
+Rectangle rejected: (r_r, -1, -20, 3, 4)
+Rectangle rejected: (rec, 7, -8, 1, 3)
+Rectangle rejected: (virtual_rec0, 1, 1, 0, 0)
+Rectangle rejected: (virtual_REC0, 0, 0, 11, 0)
+Rectangle rejected: (inExistRec_0, 1, 1, -1, -2)
+Rectangle rejected: (11, 11, 0, 0)
+Intersections pairs:
+SkipList dump:
+Node has depth 1, Value (null)
+SkipList size is: 0
+Rectangle not found: (r_r)
+Rectangle not removed: (r_r)
+Rectangle rejected: (1, 1, 0, 0)
+Rectangles intersecting region (-5, -5, 20, 20): 
+Rectangle rejected: (5, 5, 0, 0)
+Rectangle inserted: (goodRect, 5, 3, 56, 56)
+Rectangle inserted: (goodRect2, 111, 400, 20, 20)
+Rectangle inserted: (goodRect3, 25, 3, 6, 6)
+SkipList dump:
+Node has depth 1, Value (null)
+Node has depth 1, Value (goodRect, 5, 3, 56, 56)
+Node has depth 0, Value (goodRect2, 111, 400, 20, 20)
+Node has depth 1, Value (goodRect3, 25, 3, 6, 6)
+SkipList size is: 3
+Rectangle removed: (goodRect2, 111, 400, 20, 20)
+Intersections pairs:
+(goodRect, 5, 3, 56, 56 | goodRect3, 25, 3, 6, 6)
+(goodRect3, 25, 3, 6, 6 | goodRect, 5, 3, 56, 56)
+Rectangles found:
+(goodRect3, 25, 3, 6, 6)
+Rectangle rejected: (-900, 5, 0, 5000)

@@ -1,0 +1,31 @@
+~*
+._*
+.TemporaryItems
+.DS_Store
+Thumbs.db
+<<<<<<< HEAD
+/bin/
+*.class
+*.jar
+*.war
+*.ear
+hs_error_pid*
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.mod
+*.lai
+*.la
+*.a
+*.dll
+*.lib
+*.exe
+*.app
+=======
+>>>>>>> branch 'master' of https://web-cat.cs.vt.edu/Web-CAT/WebObjects/Web-CAT.woa/git/StudentProject/26a1963b-3a27-4f9c-b50e-3dbd603c20c7
+/bin/
